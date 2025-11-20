@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Compte à rebours</title>
+    <style>
+        .content {
+            font-size: 32px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="content text-center">
+            <span class="time" id="hours">0</span> :
+            <span class="time" id="minutes">0</span> :
+            <span class="time" id="seconds">0</span> :
+            <span class="time" id="deciseconds">0</span>
+        </div>
+
+        <div class="actions mt-5 text-center">
+            <button id="start" class="btn btn-success">Start</button>
+            <button id="pause" class="btn btn-warning">Pause</button>
+            <button id="reset" class="btn btn-danger">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
